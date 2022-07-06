@@ -1,6 +1,6 @@
-﻿#Creates a folder named VHD on the c:\  Path will be c:\VHD
+﻿#Cドライブにフォルダを生成する
 New-Item -Path c:\VHD -ItemType Directory
 
-#Creates a folder named VM on the c:\  Path will be c:\VM
+#Cドライブにフォルダを生成する
 New-Item -Path c:\VM -ItemType Directory
 

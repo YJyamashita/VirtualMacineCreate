@@ -1,9 +1,9 @@
-# Set VM Name, Switch Name, and Installation Media Path.
+# VMの名前をセット, Switchの名前をセット, インストールするメディアのPathをセット.
 $VMName = 'RTS-VM1'
 $Switch = 'Private'
-$InstallMedia = 'C:\ISO\14393.0.160715-1616.RS1_RELEASE_SERVER_EVAL_X64FRE_EN-US.iso'
+$InstallMedia = 'C:\ISO\xxxxxxxxxxxxxxxxxxxxxx'
 
-# Create New Virtual Machine
+# 新規仮想マシンを作成する
 New-VM -Name $VMName -MemoryStartupBytes 2147483648 -Generation 2 -NewVHDPath "C:\VHD\$VMName.vhdx" -NewVHDSizeBytes 53687091200 -Path "c:\VM\$VMName" -SwitchName $Switch
 
 # Add DVD Drive to Virtual Machine
